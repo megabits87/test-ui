@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #0078ff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005ed1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Простий HTML сайт</h1>
+    </header>
+
+    <main>
+        <h2>Привіт</h2>
+        <p>Це простий index.html файл.</p>
+
+        <button onclick="showMessage()">
+            Натисни
+        </button>
+    </main>
+
+    <script>
+        function showMessage() {
+            alert("Hello from JavaScript!");
+        }
+    </script>
+
+</body>
+</html>
